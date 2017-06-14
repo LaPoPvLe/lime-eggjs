@@ -28,7 +28,8 @@
     "cov": "egg-bin cov",
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
-    "autod": "autod"
+    "autod": "autod",
+    "docs:api": "apidoc -o docs/api -i app/controller -f '.*\\.js'"
   },
   "ci": {
     "version": "6, 8"
